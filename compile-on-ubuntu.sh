@@ -6,6 +6,6 @@ bdir=`dirname $0`/build
 [ -d $bdir ] && echo "Deleting $bdir ..." && rm -fr $bdir
 mkdir build
 cd build
-cmake ..
+cmake .. -DGDAL_INCLUDE_DIR=/usr/include/gdal
 make
 make install
