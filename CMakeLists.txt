@@ -10,7 +10,7 @@ else ()
 endif ()
 
 # GDAL is required
-find_package(GDAL REQUIRED)
+#find_package(GDAL REQUIRED)
 include_directories(${GDAL_INCLUDE_DIR})
 
 add_executable (find_inlets_mr src/find_inlets.cpp)
