@@ -5,6 +5,8 @@
 #export CPLUS_INCLUDE_PATH=/usr/include/gdal
 #export C_INCLUDE_PATH=/usr/include/gdal
 export GDAL_HOME=/usr/include/gdal
+export GDAL_LIBRARY=/usr/lib
+export GDAL_INCLUDE_DIR=/usr/include/gdal
 
 echo "GDAL_HOME=$GDAL_HOME"
 bdir=`dirname $0`/build
